@@ -273,6 +273,7 @@ a:hover {
 
 .row-no-gutters {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-right: 0;
     margin-left: 0;
@@ -294,7 +295,7 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
+    
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -306,6 +307,7 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 40px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -689,7 +691,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -1052,6 +1054,11 @@ ul
     list-style-type: none;
 }
 
+.row, .social
+{
+    color: #3c3c3c;
+}
+
 .link_page2
 {
     padding: 15px;
@@ -1078,6 +1085,14 @@ ul
 .grey
 {
     color: #414141;
+}
+
+.contact-center
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #313131;
 }
 
 /************** MODIFICATIONS END *****************/
