@@ -723,7 +723,8 @@ h2 {
     line-height: 1.4em;
 }
 
-h3 {
+.h3 {
+    text-align: center;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -794,7 +795,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #313131!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1077,7 +1078,8 @@ ul
 {
     
     color: black;
-    
+    display: flex;
+    justify-content: flex-end;
     
     font-size: 1.5rem;
 }
