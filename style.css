@@ -338,6 +338,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    text-decoration: underline;
 }
 
 .navbar-toggle {
